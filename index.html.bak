@@ -293,18 +293,6 @@
     </nav>
 
     <main>
-        <section id="project-ci">
-            <h2>Proyek Portofolio (CodeIgniter 4)</h2>
-            <div style="background: #e9ecef; padding: 20px; border-radius: 10px; border-left: 5px solid #306497;">
-                <p><strong>Info Proyek:</strong> Ini adalah website portofolio versi PHP yang dibangun dengan framework <strong>CodeIgniter 4</strong>. Proyek ini memiliki fitur autentikasi (Login/Register), Manajemen Pengalaman, dan Sertifikat.</p>
-                <p><small><em>Catatan: Karena GitHub Pages tidak mendukung PHP, tombol di bawah ini hanya untuk demo struktur/source code. Untuk menjalankan aplikasi secara penuh, diperlukan environment server PHP (seperti XAMPP).</em></small></p>
-                <div style="margin-top: 15px;">
-                    <a href="uts-ci/public/" class="btn-pesan" style="background-color: #306497; text-decoration: none;">Buka Demo Proyek (PHP)</a>
-                    <a href="https://github.com/dylanrfq/dylanrfq.github.io/tree/main/uts-ci" target="_blank" class="btn-pesan" style="background-color: #333; text-decoration: none; margin-left: 10px;">Lihat Source Code</a>
-                </div>
-            </div>
-        </section>
-
         <section id="home">
             <h2>Tentang Saya</h2>
             <p>Perkenalkan, saya Dylan Rifqi Alfaizi, mahasiswa Teknik Informatika yang memiliki ketertarikan pada dunia teknologi dan komunikasi kreatif. Melalui pemrograman, saya belajar memahami cara kerja sistem, sedangkan melalui konten, saya berusaha menjembatani dunia teknologi dengan masyarakat.</p>
