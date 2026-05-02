@@ -6,6 +6,9 @@ on:
   pull_request:
     branches: [ "main", "master" ]
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   phpunit:
     name: PHPUnit (PHP 8.2)
@@ -20,7 +23,7 @@ jobs:
         with:
           php-version: '8.2'
           extensions: intl, mbstring, xml, dom, json, libxml, curl, zip, gd
-          coverage: none
+          coverage: pcov
 
       - name: Get composer cache directory
         id: composer-cache
